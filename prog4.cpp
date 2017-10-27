@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-char name[]="gerfrdfjk",*c;
+char name[]="Dheemanth",*c;
 
 for(int i=0;i<9;i++)
 {cout<<name[i];}
