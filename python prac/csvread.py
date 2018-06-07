@@ -1,7 +1,7 @@
 import csv
  
-with open('test.csv') as File:
-    reader = csv.reader(File, delimiter=',', quotechar=',',
+with open('online.csv') as File:
+    reader = csv.reader(File, delimiter=',', quotechar='"',
                         quoting=csv.QUOTE_MINIMAL)
     for row in reader:
         print(row)
